@@ -60,8 +60,18 @@ display: none;
     text-align: center;
     }
 
+    li:hover{
+        border-bottom: 1px solid red;
+        border-radius: 5px;
+    }
+
     #lateralUno li{
     border-bottom: 1px solid gainsboro;
+    }
+
+    #lateralUno li:hover{
+        border-bottom: 1px solid red;
+        border-radius: 5px;
     }
 
     #lateralDos{
@@ -213,6 +223,7 @@ h3{
 justify-self: center;
 align-self: center;
 color: black;
+margin-bottom: 10px;
 }
 
 .btn a{
@@ -244,6 +255,18 @@ margin-right: 10px;
  margin-top: 30px;
  margin-bottom: 50px;
 }
+
 .card-personalizada img{
     border-radius: 10px;   
+}
+
+#buttons{
+display: flex;
+justify-content:space-around
+}
+
+#btnFin{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 0px;
 }
