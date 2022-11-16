@@ -125,6 +125,11 @@ display: none;
         margin-top: 1%;
     }
 
+    #cont{
+        display: flex;
+        margin-left: 25%;
+    }
+
 }
 
 #acercaDe{
@@ -166,7 +171,6 @@ h2{
 
 #anterior{
 margin-right: 90%;
-
 }
 
 #description,
@@ -262,11 +266,19 @@ margin-right: 10px;
 
 #buttons{
 display: flex;
-justify-content:space-around
+justify-content:center;
+margin: 10px;
+}
+
+#buttons .btn{
+margin: 10px;
 }
 
 #btnFin{
     display: flex;
     margin-left: 25%;
-    margin-top: 0px;
+}
+
+.titulo{
+    margin-top: 5px;
 }
