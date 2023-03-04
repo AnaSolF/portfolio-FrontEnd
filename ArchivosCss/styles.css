@@ -282,3 +282,16 @@ margin: 10px;
 .titulo{
     margin-top: 5px;
 }
+
+.btn-flotante {
+	position: fixed;
+	bottom: 40px;
+	right: 48%;
+	transition: all 300ms ease 0ms;
+	z-index: 99;
+    color: black;
+}
+
+.btn-flotante a{
+    text-decoration: none;
+}
