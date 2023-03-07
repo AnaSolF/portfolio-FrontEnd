@@ -47,7 +47,17 @@ p{
 }
 } */
 
-@media screen and (min-width: 1100px){
+@media screen and (max-width: 850px) {
+    #educacion,
+    .row{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    }
+}    
+
+
+@media screen and (min-width: 1280px){
     #lateral{
     display: flex;    
     flex-direction: column;
@@ -191,7 +201,7 @@ margin-right: 90%;
 #Hard,
 #experiencia,
 #contact{
-    width: 88%;
+    width: 90%;
     align-self: center;
     height: 96vh;
     display: flex;
@@ -267,16 +277,15 @@ margin-right: 10px;
 }
 
 .card-personalizada{
- width: 300px;  
+ width: 210px;  
  height: 400px;
- min-height: 200px;
  border-radius: 10px;
- margin: 35px auto;
+ margin-right: 20px auto;
  flex-wrap: wrap;
 }
 
 .card-personalizada img{
-    border-radius: 10px;   
+    border-radius: 10px; 
 }
 
 #buttons{
